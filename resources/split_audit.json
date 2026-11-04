@@ -1,0 +1,47 @@
+{
+  "n_images": 25331,
+  "n_component_lesions": 11847,
+  "n_images_without_component_lesion_id": 2084,
+  "n_archive_lesion_ids": 12264,
+  "n_images_without_archive_lesion_id": 1667,
+  "n_groups": 13865,
+  "n_multi_image_groups": 5095,
+  "images_in_multi_image_groups": 16561,
+  "max_group_size": 31,
+  "merges_added_by_key": {
+    "lesion_id": 11400,
+    "lesion_id_archive": 0,
+    "patient_id_archive": 48,
+    "md5_bytes": 4,
+    "md5_thumb32q4": 0,
+    "visual_adjudication": 14
+  },
+  "images_in_byte_identical_sets": 100,
+  "split_sizes": {
+    "p1_image_level": {
+      "train": 17731,
+      "test": 5067,
+      "val": 2533
+    },
+    "p2_lesion_level": {
+      "train": 17731,
+      "test": 5067,
+      "val": 2533
+    }
+  },
+  "official_test": {
+    "n_total": 8238,
+    "n_scored": 7331,
+    "n_scored_known": 5920,
+    "n_scored_known_lesion_in_train": 0,
+    "n_with_archive_lesion_id": 8238
+  },
+  "leakage_p1_test_pct": 57.74620090783501,
+  "leakage_p2_test_pct": 0.0,
+  "leakage_p1_test_pct_component_id_only": 57.37122557726465,
+  "residual_leak_pct_of_component_id_lesion_split": 0.4341819617130452,
+  "official_test_by_source": {
+    "Hospital Clinic (BCN)": 4409,
+    "ViDIR Vienna (HAM-type)": 1511
+  }
+}

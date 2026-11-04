@@ -1,0 +1,25 @@
+image_a,image_b,cosine,comparison,decision,note
+ISIC_0012290_downsampled,ISIC_0013594_downsampled,0.9972,P2 eval vs train,same_lesion_confirmed,near-identical copy; legacy image without identifier vs MSK
+ISIC_0015986_downsampled,ISIC_0015987_downsampled,0.9969,P2 eval vs train,same_lesion_confirmed,near-identical copy; consecutive legacy ids without identifier
+ISIC_0012672_downsampled,ISIC_0012673_downsampled,0.9937,P2 eval vs train,same_lesion_confirmed,near-identical copy; consecutive MSK ids
+ISIC_0012222_downsampled,ISIC_0016003_downsampled,0.9864,P2 eval vs train,same_lesion_confirmed,same lesion and ruler; legacy images without identifier
+ISIC_0033481,ISIC_0033421,0.9703,P2 eval vs train,same_lesion_confirmed,HAM10000 re-photograph under two different lesion ids (two-lobed nevus with satellite dot)
+ISIC_0027027,ISIC_0029036,0.9690,P2 eval vs train,same_lesion_confirmed,HAM10000 re-photograph under two different lesion ids (same lesion and 3Gen ruler)
+ISIC_0027389,ISIC_0025230,0.9664,P2 eval vs train,same_lesion_probable,HAM10000; same diagonal pigment pattern with shifted framing
+ISIC_0031507,ISIC_0031128,0.9618,P2 eval vs train,uncertain,HAM10000; similar pattern; not merged
+ISIC_0026289,ISIC_0026110,0.9672,P2 eval vs train,uncertain,HAM10000; similar dark nevus with different outline; not merged
+ISIC_0068352,ISIC_0059226,0.9705,P2 eval vs train,uncertain,BCN20000 blurred field; not merged
+ISIC_0055890,ISIC_0069335,0.9695,P2 eval vs train,different,BCN20000; different structures
+ISIC_0064631,ISIC_0062657,0.9679,P2 eval vs train,uncertain,BCN20000 blurred field; not merged
+ISIC_0027079,ISIC_0032054,0.9634,P2 eval vs train,different,HAM10000; different outline
+ISIC_0059238,ISIC_0061311,0.9728,official vs train,same_lesion_probable,official UNK image resembles a training BCC lesion (scar and scale); UNK is excluded from the primary metrics
+ISIC_0057808,ISIC_0058807,0.9716,official vs train,uncertain,BCN; pigment distribution differs
+ISIC_0054829,ISIC_0061511,0.9790,official vs train,uncertain,BCN blurred field
+ISIC_0012887_downsampled,ISIC_0012989_downsampled,0.9992,global train screen,same_lesion_confirmed,near-identical MSK copy
+ISIC_0013109_downsampled,ISIC_0013163_downsampled,0.9988,global train screen,same_lesion_confirmed,near-identical MSK copy
+ISIC_0057909,ISIC_0072047,0.9799,global train screen,same_lesion_confirmed,BCN20000 same lesion and hairs under two lesion ids
+ISIC_0033391,ISIC_0034186,0.9603,global train screen,same_lesion_confirmed,HAM10000 identical picture under two lesion ids
+ISIC_0069621,ISIC_0069952,0.9700,global train screen,same_lesion_probable,BCN20000 same nevus outline in the same dermoscope frame
+ISIC_0059107,ISIC_0065372,0.9661,global train screen,same_lesion_probable,BCN20000 large tan nevus with the same outline
+ISIC_0058295,ISIC_0060910,0.9650,global train screen,same_lesion_probable,BCN20000 same brown nevus outline
+ISIC_0027413,ISIC_0031448,0.9609,global train screen,uncertain,HAM10000 similar nevus on hairy skin; not merged

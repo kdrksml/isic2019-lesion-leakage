@@ -1,0 +1,26 @@
+{
+  "official_vs_train_byte_identical": 0,
+  "official_vs_train_thumbnail_identical": 0,
+  "p2_nn_cosine_quantiles": {
+    "0.5": 0.8819843232631683,
+    "0.9": 0.9317881226539612,
+    "0.99": 0.9539344102144242,
+    "0.999": 0.9678027139902114,
+    "1.0": 0.9774788618087769
+  },
+  "positive_control_same_lesion_nn_cosine_median": 0.9280259609222412,
+  "positive_control_same_lesion_nn_cosine_q10": 0.8526615679264069,
+  "p2_pairs_above_positive_q10": 5458,
+  "p2_pairs_above_0.95": 126,
+  "p2_pairs_above_0.98": 0,
+  "official_nn_cosine_quantiles": {
+    "0.5": 0.8879188299179077,
+    "0.9": 0.9383018016815186,
+    "0.99": 0.9583518028259277,
+    "0.999": 0.9670400893688202,
+    "1.0": 0.9789507389068604
+  },
+  "official_pairs_above_positive_q10": 5486,
+  "official_pairs_above_0.95": 251,
+  "official_pairs_above_0.98": 0
+}

@@ -1,0 +1,3 @@
+backbone,protocol,n_test,nn_macro_f1,nn_bacc,nn_same_lesion_pct,nn_acc_when_same_lesion,nn_acc_when_other_lesion
+resnet50.a1_in1k,P1 image-level,5067,0.5585554260506151,0.5421247356652137,27.62976119992106,1.0,0.5871284428688301
+resnet50.a1_in1k,P2 lesion-level,5067,0.2998370459714733,0.29269725063419105,0.0,,0.5565423327412671

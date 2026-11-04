@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+_data/
+_local_cache/
+results_smoke/
+*.pt
+analysis/statistics_results.json
+analysis/output/
